@@ -12,7 +12,7 @@ export default function About({innerRef}) {
         return <>
             <p><span style={{color: info.baseColor}}>{firstName}{info.lastName.toLowerCase()} $</span> cat
                 about{firstName} </p>
-            <p><span style={{color: info.baseColor}}>about{firstName} <span
+            <p><span style={{color: info.baseColor}}>abougt{firstName} <span
                 className={Style.green}>(main)</span> $ </span>
                 {info.bio}
             </p>

@@ -8,7 +8,7 @@ import mock5 from "../img/mock5.png"
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
 
-export let colors = ["rgb(0,255,164)", "rgb(166,104,255)"];
+export let colors = ["rgb(0, 255, 85)", "rgb(132, 104, 255)"];
 /*
 I highly recommend using a gradient generator like https://gradientgenerator.paytonpierce.dev/ to generate a pair of colors that you like.
 These colors will be used to style your name on the homepage, the background of your picture, and some other accents throughout
@@ -27,10 +27,10 @@ of what each of the values mean.
  */
 
 export const info = {
-    firstName: "John",
-    lastName: "Smith",
-    initials: "js", // the example uses first and last, but feel free to use three or more if you like.
-    position: "a Full Stack Developer",
+    firstName: "cofe",
+    lastName: "macihne",
+    initials: "ft", // the example uses first and last, but feel free to use three or more if you like.
+    position: "a 'i dont know man'",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
@@ -41,40 +41,40 @@ export const info = {
         },
         {
             emoji: '🌎',
-            text: 'based in the US'
+            text: 'probably on earth'
         },
         {
             emoji: "💼",
-            text: "Systems Engineer at Google"
+            text: "bag"
         },
         {
             emoji: "📧",
-            text: "johnsmith@gmail.com"
+            text: "no"
         }
     ],
     socials: [
         {
-            link: "https://facebook.com",
+            link: "https://www.youtube.com/watch?v=8D5xOnIg0Hs",
             icon: 'fa fa-facebook',
             label: 'facebook'
         },
         {
-            link: "https://instagram.com",
+            link: "https://www.youtube.com/watch?v=8D5xOnIg0Hs",
             icon: 'fa fa-instagram',
             label: 'instagram'
         },
         {
-            link: "https://github.com",
+            link: "https://www.youtube.com/watch?v=8D5xOnIg0Hs",
             icon: "fa fa-github",
             label: 'github'
         },
         {
-            link: "https://linkedin.com",
+            link: "https://www.youtube.com/watch?v=8D5xOnIg0Hs",
             icon: "fa fa-linkedin",
             label: 'linkedin'
         },
         {
-            link: "https://twitter.com",
+            link: "https://www.youtube.com/watch?v=8D5xOnIg0Hs",
             icon: "fa fa-twitter",
             label: 'twitter'
         }
@@ -82,28 +82,28 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm John. I'm a systems engineer for Google. I studied CompSci at Harvard, I enjoy long walks on the beach, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
+    bio: "Hello! I'm cofe. I'm an engineer. That means I solve practical problems. I studied CompSci at Harvard, I enjoy long walks on the beach, and I believe that my name is missing one f. You should hire me!",
     skills:
         {
-            proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3', 'figma'],
-            exposedTo: ['nodejs', 'python', 'adobe illustrator']
+            proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3', 'python'],
+            exposedTo: ['nodejs', 'js', 'adobe illustrator', 'SFM']
         }
     ,
     hobbies: [
         {
-            label: 'reading',
+            label: 'book',
             emoji: '📖'
         },
         {
-            label: 'theater',
+            label: 'wierd potato chips',
             emoji: '🎭'
         },
         {
-            label: 'movies',
+            label: 'camera',
             emoji: '🎥'
         },
         {
-            label: 'cooking',
+            label: 'wierd pepper',
             emoji: '🌶'
         }
 // Same as above, change the emojis to match / relate to your hobbies or interests.
@@ -112,31 +112,31 @@ export const info = {
     portfolio: [ // This is where your portfolio projects will be detailed
         {
             title: "Project 1",
-            live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            live: "https://www.youtube.com/watch?v=TfeNtFP_DsQ", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
             source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
             image: mock1
         },
         {
             title: "Project 2",
-            live: "https://paytonpierce.dev",
+            live: "https://www.youtube.com/watch?v=TfeNtFP_DsQ",
             source: "https://github.com/paytonjewell",
             image: mock2
         },
         {
             title: "Project 3",
-            live: "https://paytonpierce.dev",
+            live: "https://www.youtube.com/watch?v=TfeNtFP_DsQ",
             source: "https://github.com/paytonjewell",
             image: mock3
         },
         {
             title: "Project 4",
-            live: "https://paytonpierce.dev",
+            live: "https://www.youtube.com/watch?v=TfeNtFP_DsQ",
             source: "https://github.com/paytonjewell",
             image: mock4
         },
         {
             title: "Project 5",
-            live: "https://paytonpierce.dev",
+            live: "https://www.youtube.com/watch?v=TfeNtFP_DsQ",
             source: "https://github.com/paytonjewell",
             image: mock5
         }
